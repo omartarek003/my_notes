@@ -9,6 +9,10 @@ final lightTheme = ThemeData(
   scaffoldBackgroundColor: AppColors.lightBackground,
   cardColor: AppColors.lightSurface,
   textTheme: lightTextTheme,
+  colorScheme: ColorScheme.light(
+    primary: AppColors.lightTextPrimary,
+    secondary: AppColors.lightTextSecondary,
+  ),
 );
 
 final darkTheme = ThemeData(
@@ -17,4 +21,8 @@ final darkTheme = ThemeData(
   scaffoldBackgroundColor: AppColors.darkBackground,
   cardColor: AppColors.darkSurface,
   textTheme: darkTextTheme,
+  colorScheme: ColorScheme.dark(
+    primary: AppColors.darkTextPrimary,
+    secondary: AppColors.darkTextSecondary,
+  ),
 );
