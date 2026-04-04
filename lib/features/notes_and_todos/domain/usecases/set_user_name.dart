@@ -1,4 +1,4 @@
-import 'package:notes_and_todos/features/todo/domain/repositories/user_repository.dart';
+import '../repositories/user_repository.dart';
 
 class SetUserName {
   final UserRepository repo;

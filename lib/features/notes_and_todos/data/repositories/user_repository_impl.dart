@@ -1,5 +1,5 @@
-import 'package:notes_and_todos/features/todo/data/datasources/user_local_datasource.dart';
-import 'package:notes_and_todos/features/todo/domain/repositories/user_repository.dart';
+import '../../domain/repositories/user_repository.dart';
+import '../datasources/user_local_datasource.dart';
 
 class UserRepositoryImpl implements UserRepository {
   final UserLocalDataSource localDataSource;

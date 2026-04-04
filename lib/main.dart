@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:notes_and_todos/features/todo/presentation/state_management/theme_notifier.dart';
 
 import 'core/theme/theme.dart';
-import 'features/todo/presentation/screens/home_screen.dart';
+import 'features/notes_and_todos/presentation/screens/notes_screen.dart';
+import 'features/notes_and_todos/presentation/state_management/theme_notifier.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
@@ -21,7 +21,7 @@ class MyApp extends ConsumerWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: themeMode,
-      home: HomeScreen(),
+      home: NotesScreen(),
     );
   }
 }

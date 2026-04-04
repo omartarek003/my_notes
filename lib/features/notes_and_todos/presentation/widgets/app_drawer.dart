@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
-import 'package:notes_and_todos/features/todo/presentation/widgets/theme_toggle.dart';
+import 'package:notes_and_todos/features/notes_and_todos/presentation/widgets/theme_toggle.dart';
 import '../enums/drawer_item_enum.dart';
 import 'drawer_item_tile.dart';
 
@@ -107,7 +107,7 @@ class _AppDrawerState extends State<AppDrawer> {
                   fillColor: Theme.of(context).cardColor,
                   border: OutlineInputBorder(
                     borderSide: BorderSide.none,
-                    borderRadius: BorderRadius.circular(12),
+                    borderRadius: BorderRadius.circular(8),
                   ),
                 ),
               ),
